@@ -1,0 +1,39 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/bunkmaster.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Unifyed</h5>
+                    <p class="card-text">This is my dream startup whose aim would be help college students to get unified topic-wise hand-written notes at a single place</p>
+                    <p class="card-text">
+                        <small class="text-muted">Unifyed</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/firefight.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">FireFight</h5>
+                    <p class="card-text">IOT Application to help firefighters. Includes Facial Tracking and Environment detection</p>
+                    <p class="card-text">
+                        <small class="text-muted">Internet of Things</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/kupika.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Kupika</h5>
+                    <p class="card-text">Smart Diaper for Babies - IOT based Application and hardware</p>
+                    <p class="card-text">
+                        <small class="text-muted">Android Developement</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
