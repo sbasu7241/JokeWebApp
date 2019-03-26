@@ -1,7 +1,6 @@
 # Joke Webapp
 
-### My first web application built using Django that uses a Joke API to fetch random jokes corresponding to name entered by the user.
-### It also uses SQLite3 to manage a database of users who would like to contact the owner of the webpage   
+My first web application built using Django that uses a Joke API to fetch random jokes corresponding to name entered by the user.It also uses SQLite3 to manage a database of users who would like to contact the owner of the webpage.
 
 ### Running the web app locally
 
